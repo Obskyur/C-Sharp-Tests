@@ -30,8 +30,7 @@ namespace Test_Expanded_Number
             return String.Join(" + ",
                 str
                 // Convert all characters to their digit value * 10^currentPlaceLength
-                .Select((x, i) => int.Parse(x.ToString().PadRight(str.Length - i - 1, '0')))
-                //char.GetNumericValue(x) * Math.Pow(10, str.Length - i - 1))
+                .Select((x, i) => char.GetNumericValue(x) * Math.Pow(10, str.Length - i - 1))
                 // Filter out zero values
                 .Where(x => x > 0)
                 );

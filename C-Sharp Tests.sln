@@ -11,15 +11,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test Narcissistic Number", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test Maskify", "Test Maskify\Test Maskify.csproj", "{DDD3490C-AB8C-446E-B453-D05B1EBDD5EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test Highest and Lowest", "Test Highest and Lowest\Test Highest and Lowest.csproj", "{E4BB901C-9401-4BC2-8902-637F1A6B03FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test Highest and Lowest", "Test Highest and Lowest\Test Highest and Lowest.csproj", "{E4BB901C-9401-4BC2-8902-637F1A6B03FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test IsPrime", "Test IsPrime\Test IsPrime.csproj", "{07443C18-9A4D-4DAB-8165-576A114AC29E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test IsPrime", "Test IsPrime\Test IsPrime.csproj", "{07443C18-9A4D-4DAB-8165-576A114AC29E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test Greed", "Test Greed\Test Greed.csproj", "{0178DF53-DB70-488C-B589-012B5EEAEF8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test Greed", "Test Greed\Test Greed.csproj", "{0178DF53-DB70-488C-B589-012B5EEAEF8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test Pangram", "Test Pangram\Test Pangram.csproj", "{1A5E9154-E5DA-4E22-AA6C-AD238DAD9726}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test Pangram", "Test Pangram\Test Pangram.csproj", "{1A5E9154-E5DA-4E22-AA6C-AD238DAD9726}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test Expanded Number", "Test Expanded Number\Test Expanded Number.csproj", "{207A4430-9CFE-4E89-BF62-5DD8B8B019E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test Expanded Number", "Test Expanded Number\Test Expanded Number.csproj", "{207A4430-9CFE-4E89-BF62-5DD8B8B019E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RearrangeString", "RearrangeString\RearrangeString.csproj", "{9F554E31-78B2-4B6A-AE88-4A9882D14194}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test JadenCasing", "Test JadenCasing\Test JadenCasing.csproj", "{487FEDC8-8487-4F64-93ED-BB04E8A4E22B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{207A4430-9CFE-4E89-BF62-5DD8B8B019E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{207A4430-9CFE-4E89-BF62-5DD8B8B019E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{207A4430-9CFE-4E89-BF62-5DD8B8B019E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F554E31-78B2-4B6A-AE88-4A9882D14194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F554E31-78B2-4B6A-AE88-4A9882D14194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F554E31-78B2-4B6A-AE88-4A9882D14194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F554E31-78B2-4B6A-AE88-4A9882D14194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{487FEDC8-8487-4F64-93ED-BB04E8A4E22B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{487FEDC8-8487-4F64-93ED-BB04E8A4E22B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{487FEDC8-8487-4F64-93ED-BB04E8A4E22B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{487FEDC8-8487-4F64-93ED-BB04E8A4E22B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
